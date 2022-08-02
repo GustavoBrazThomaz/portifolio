@@ -1,0 +1,11 @@
+.project-container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.project-title{
+    color: white;
+    font-size: 3rem;
+}

@@ -1,0 +1,18 @@
+.button{
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border-radius: 10px;
+    color: white;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+.button a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
