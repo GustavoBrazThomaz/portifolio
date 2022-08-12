@@ -15,7 +15,7 @@ function Cards({ name, description, image, link, working, template }) {
             backgroundColor: 'rgb(68, 68, 68)',
             width: '100%',
             maxWidth: '400px',
-            minWidth: '300px',
+            minWidth: '250px',
             margin: '0 auto',
             height: '450px',
           }}

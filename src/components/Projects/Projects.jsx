@@ -1,5 +1,5 @@
 
-import { Grid } from '@mui/material'
+import { Container, Grid } from '@mui/material'
 import React, { useEffect } from 'react'
 import Cards from '../../templates/Cards/Cards'
 import { motion } from 'framer-motion'
@@ -33,11 +33,11 @@ function Projects() {
     template: true
   }, {
     name: 'Pokedex',
-    description: 'Pokédex desenvolvida em React com Typescript utilizando a PokéAPI e Redux',
-    link: 'outro link',
+    description: 'Pokédex desenvolvida em React com Typescript utilizando a PokéAPI',
+    link: 'https://gus-pokedex.herokuapp.com/',
     image: 'https://cdn.discordapp.com/attachments/992088142855274596/1004100787510706176/unknown.png',
-    working: true,
-    template: false
+    working: false,
+    template: true
   }, {
     name: 'Fortnite App',
     description: 'App de Fornite desenvolvido em React js utilizando a Fortinite Api e Context API ',
@@ -56,7 +56,8 @@ function Projects() {
 
   return (
     <>
-      <div ref={ref} className='project-container' style={{marginTop: '10rem'}}>
+      <div ref={ref} style={{marginTop: '10rem', textAlign: 'center'}}>
+        <Container>
         <motion.span
         initial={{opacity: 0}}
         animate={animation}
@@ -67,11 +68,12 @@ function Projects() {
         initial={{opacity: 0}}
         animate={animation}
         transition={{delay: 1.5, duration: 1}}
+        style={{marginTop: '5rem'}}
         >
-        <Grid container spacing={4} style={{margin: '5rem auto'}}>
+        <Grid container spacing={4}>
           {projects.map(resp => (
             <>
-              <Grid item lg={4}>
+              <Grid item lg={6} md={6} xs={12}>
                 <Cards
                   name={resp.name}
                   image={resp.image}
@@ -85,6 +87,7 @@ function Projects() {
           ))}
         </Grid>
         </motion.div>
+        </Container>
       </div>
     </>
   )

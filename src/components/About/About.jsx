@@ -48,7 +48,9 @@ function About() {
                 animate={animation}
                 transition={{delay: 1.5, duration: 1}}
                 >
+                <div className='button-description'>
                 <Button color='#4151ab' name='Currículo'/>
+                </div>
                 </motion.div>
             </div>
             </div>
