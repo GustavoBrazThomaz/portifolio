@@ -27,31 +27,31 @@ function Projects() {
   const projects = [{
     name: 'Customers',
     description: 'Customers desenvolvida em React JS e utilizando Rest API.',
-    link: 'https://react-customers.herokuapp.com/',
+    link: 'https://react-customers.vercel.app/',
     image: 'https://cdn.discordapp.com/attachments/992088142855274596/1003829905802395778/unknown.png',
     working: false,
     template: true
   }, {
     name: 'Pokedex',
     description: 'Pokédex desenvolvida em React com Typescript utilizando a PokéAPI',
-    link: 'https://gus-pokedex.herokuapp.com/',
+    link: 'https://pokedex-umber-zeta.vercel.app/',
     image: 'https://cdn.discordapp.com/attachments/992088142855274596/1004100787510706176/unknown.png',
     working: false,
     template: true
   }, {
     name: 'Fortnite App',
     description: 'App de Fornite desenvolvido em React js utilizando a Fortinite Api e Context API ',
-    link: 'https://gus-fortnite-app.herokuapp.com/',
+    link: 'https://fortnite-app.vercel.app/',
     image: 'https://cdn.discordapp.com/attachments/992088142855274596/1003829800391151626/unknown.png',
     working: false,
     template: true
   },{
-    name: 'Finances',
-    description: 'Finances desenvolvido em React com Typescript utilizando a Rest API e Redux ',
-    link: 'link Finances',
-    image: 'https://cdn.discordapp.com/attachments/992088142855274596/1004100124064108644/unknown.png',
-    working: true,
-    template: false
+    name: 'PetShop',
+    description: 'PetShop é um app desenvolvido em React com Typescript utilizando a Rest API em Node Js e Mongo db ',
+    link: 'https://vercel.com/gustavobrazthomaz/petshop-react',
+    image: 'https://cdn.discordapp.com/attachments/366606804018397194/1014597713670713364/unknown.png',
+    working: false,
+    template: true
   }]
 
   return (

@@ -78,6 +78,14 @@ function Ability() {
                          </Tooltip>
                     </Grid>
                     <Grid item lg={2} md={3} sm={4}>
+                        <Tooltip title='Mongo Db'>
+                        <motion.img
+                         whileHover={{scale: 1.1}}
+                         style={{width: 130}}
+                         src="https://cdn.cdnlogo.com/logos/m/30/mongodb-icon.svg" alt="Node"/>
+                         </Tooltip>
+                    </Grid>
+                    <Grid item lg={2} md={3} sm={4}>
                         <Tooltip title='Docker'>
                         <motion.img
                          whileHover={{scale: 1.1}}
@@ -98,5 +106,5 @@ function Ability() {
         </>
     )
 }
-
+//https://flyclipart.com/thumb2/mongodb-atlas-hits-amazon-web-services-marketplace-499956.png
 export default Ability
