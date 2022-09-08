@@ -1,0 +1,21 @@
+.container-toolbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-footer{
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 450px) {
+    .container-toolbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-title{
+        margin-top: 1rem;
+    }
+}

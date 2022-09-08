@@ -30,7 +30,7 @@ function About() {
             animate={animation}
             transition={{delay: 0.5, duration: 1}}
             className='description-image'>
-                <img src="https://cdn.discordapp.com/attachments/992088142855274596/1003787583635079238/20220801_185715-03.jpeg" alt="" srcset="" />
+                <img src="https://media.discordapp.net/attachments/992088142855274596/1017490537244278824/20220908_143652.jpg?width=507&height=676" alt="" srcset="" />
             </motion.div>
             <div className='description-card'>
                 <motion.span

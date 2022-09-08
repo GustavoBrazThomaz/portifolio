@@ -47,7 +47,7 @@ function Projects() {
     template: true
   },{
     name: 'PetShop',
-    description: 'PetShop é um app desenvolvido em React com Typescript utilizando a Rest API em Node Js e Mongo db ',
+    description: 'PetShop é um app desenvolvido em React Js utilizando Redux, Rest API em Node Js e Mongo db ',
     link: 'https://petshop-react-blue.vercel.app/',
     image: 'https://cdn.discordapp.com/attachments/366606804018397194/1014597713670713364/unknown.png',
     working: false,

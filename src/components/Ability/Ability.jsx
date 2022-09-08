@@ -10,15 +10,19 @@ function Ability() {
                 <span className='ability-title'>Habilidades</span>
 
                 <div style={{marginTop: '5rem', marginBottom: '5rem'}}>
+
                 <Grid container className='ability-image-container' spacing={1} justifyContent='center' >
-                    <Grid item lg={2} md={3} sm={4} xs={4}>
+
+                    <Grid item lg={2} md={3} sm={4} xs={6}>
                         <Tooltip title='Html 5'>
                         <motion.img 
                         whileHover={{scale: 1.1}}
-                        style={{ width: 130, position: 'relative', top: -25}}
+                        style={{ width: 130, position: 'relative', top: -25 }}
                         src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png' alt='HTML' />
                         </Tooltip>
                     </Grid>
+
+
                     <Grid item lg={2} md={3} sm={4} xs={6}>
                         <Tooltip title='Css'>
                         <motion.img 
@@ -26,10 +30,13 @@ function Ability() {
                         style={{ width: 95, position: 'relative', top: -25 }} src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/1200px-CSS.3.svg.png' alt='CSS' />
                         </Tooltip>
                     </Grid>
+
+
                     <Grid item lg={2} md={3} sm={4} xs={6}>
                         <Tooltip title='JavaScript'>
                         <motion.img 
                         whileHover={{scale: 1.1}}
+                        style={{marginBottom: '1rem'}}
                         src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3-rxVqlnVUWa1-XJrUKxDXSzrG4mKyufcXA&usqp=CAU' alt='JavaScript' />
                         </Tooltip>
                     </Grid>
@@ -37,6 +44,7 @@ function Ability() {
                         <Tooltip title='TypeScript'>
                         <motion.img 
                         whileHover={{scale: 1.1}}
+                        style={{marginBottom: '1rem'}}
                         src='https://bognarjunior.files.wordpress.com/2018/09/typescript.png' alt='Typescript' />
                         </Tooltip>
                     </Grid>
