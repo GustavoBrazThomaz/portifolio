@@ -42,7 +42,7 @@ function About() {
                 initial={{opacity: 0}}
                 animate={animation}
                 transition={{delay: 1, duration: 1}}
-                >Desenvolvedor Front-end e estudante de análise e desenvolvimentos de sistemas na faculdade Anhanguera. Em busca de Novos desafios e de evoluir como Desenvolvedor.</motion.span><br/>
+                >Desenvolvedor Front-end e estudante de análise e desenvolvimentos de sistemas na faculdade Anhanguera. Em busca sempre de novos conhecimentos e sempre procurando evoluir como pessoa e profissional.</motion.span><br/>
                 <motion.div
                 initial={{opacity: 0}}
                 animate={animation}

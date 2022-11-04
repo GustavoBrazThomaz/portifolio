@@ -32,10 +32,10 @@ function Projects() {
     working: false,
     template: true
   }, {
-    name: 'Pokedex',
-    description: 'Pokédex desenvolvida em React com Typescript utilizando a PokéAPI',
-    link: 'https://pokedex-umber-zeta.vercel.app/',
-    image: 'https://cdn.discordapp.com/attachments/992088142855274596/1004100787510706176/unknown.png',
+    name: 'Águas da Prata',
+    description: 'Águas da Prata foi desenvolvido em HTML e CSS',
+    link: 'https://gustavobrazthomaz.github.io/aguas-da-prata/',
+    image: 'https://cdn.discordapp.com/attachments/992088142855274596/1037890611849736282/unknown.png',
     working: false,
     template: true
   }, {
@@ -47,9 +47,9 @@ function Projects() {
     template: true
   },{
     name: 'PetShop',
-    description: 'PetShop é um app desenvolvido em React Js utilizando Redux, Rest API em Node Js e Mongo db ',
+    description: 'PetShop é um app desenvolvido em React Js utilizando Redux, TypeScript e Rest API em Node Js com Mongo db ',
     link: 'https://petshop-react-blue.vercel.app/',
-    image: 'https://cdn.discordapp.com/attachments/366606804018397194/1014597713670713364/unknown.png',
+    image: 'https://cdn.discordapp.com/attachments/992088142855274596/1037888314604257360/unknown.png',
     working: false,
     template: true
   }]
@@ -61,7 +61,7 @@ function Projects() {
         <motion.span
         initial={{opacity: 0}}
         animate={animation}
-        transition={{delay: 0.5, duration: 1}}
+        transition={{delay: 0.1, duration: 0.4}}
         className='project-title'>Projetos</motion.span>
 
         <motion.div

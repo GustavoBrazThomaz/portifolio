@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
-import curriculo from '../../assets/pdf/curriculoGustavoBraz.pdf'
+import curriculo from '../../assets/pdf/CVGustavobraz.pdf'
 function Button({ color, name }) {
 
     const buttonBorder = { border: `1px solid ${color}` }

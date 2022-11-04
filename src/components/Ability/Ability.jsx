@@ -57,10 +57,11 @@ function Ability() {
                     </Grid>
 
                     <Grid item lg={2} md={3} sm={4} xs={6}>
-                        <Tooltip title='Sass'>
+                        <Tooltip title='Redux'>
                         <motion.img 
                         whileHover={{scale: 1.1}}
-                        src='https://cdn-icons-png.flaticon.com/512/5968/5968358.png' alt='Sass' />
+                        style={{width: 130, position: 'relative', top: '-10px'}}
+                        src='https://i1.wp.com/www.ux-republic.com/wp-content/uploads/2016/11/logo-redux.png?fit=500%2C500&ssl=1' alt='Redux' />
                         </Tooltip>
                     </Grid>
 
@@ -69,14 +70,6 @@ function Ability() {
                 
                 <span className='ability-title'>Aprendendo</span>
                 <Grid container className='ability-image-container' spacing={2} justifyContent='center' alignItems='center' style={{marginTop: '3rem'}}>
-                    <Grid item lg={2} md={3} sm={4}>
-                        <Tooltip title='Redux'>
-                        <motion.img
-                         whileHover={{scale: 1.1}}
-                         style={{width: 130}}
-                         src="https://i1.wp.com/www.ux-republic.com/wp-content/uploads/2016/11/logo-redux.png?fit=500%2C500&ssl=1" alt="Redux" />
-                         </Tooltip>
-                    </Grid>
                     <Grid item lg={2} md={3} sm={4}>
                         <Tooltip title='Node js'>
                         <motion.img
@@ -114,5 +107,5 @@ function Ability() {
         </>
     )
 }
-//https://flyclipart.com/thumb2/mongodb-atlas-hits-amazon-web-services-marketplace-499956.png
+
 export default Ability
